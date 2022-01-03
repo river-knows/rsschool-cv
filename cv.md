@@ -1,5 +1,5 @@
 
-# Link
+# https://river-knows.github.io/rsschool-cv
 
 # Damir Ilkaev
 
@@ -8,7 +8,7 @@
 - Location: Orenburg  
 - Phone: 89878831292  
 - E-mail: rvrknows@gmail.com  
-- GitHub: [rvr-knows](https://github.com/river-knows)
+- GitHub: [river-knows](https://github.com/river-knows)
 
 ## About Me
 
