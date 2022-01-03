@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Righteous&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.header {
+  color: aliceblue;
+  background-color: #6e669c;
+}
+
+.main {
+  background-color: #949C66;
+}
+
+.footer {
+  background-color: #6e669c;
 }
