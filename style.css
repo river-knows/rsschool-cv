@@ -1,20 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Righteous&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.header {
-  color: aliceblue;
-  background-color: #6e669c;
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ffffff;
 }
 
-.main {
-  background-color: #949C66;
+/*HEADER
+========================*/
+.header {
+  padding: 0.7em;
+
+  background-color: #424242;
 }
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0.2em;
+  list-style: none;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+/*MAIN
+========================*/
+main {
+  margin: 1.5em 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.container section {
+  margin-top: 0.8em; 
+  text-align: center;
+}
+
+.img-wrap {
+  margin: 1em;
+}
+
+.img-wrap img {
+  
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+
+
+
 
 .footer {
-  background-color: #6e669c;
+  padding: 1em;
+
+  background-color: #424242;
+  color: #fff;
 }
