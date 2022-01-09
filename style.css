@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /*HEADER
@@ -72,11 +72,13 @@ h1 {
 }
 
 .section-title {
-  font-weight: 300;
+  padding: 0.3em;
+
+  font-weight: 400;
   font-size: 1.7em;
   text-align: center;
 
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   
 }
@@ -126,8 +128,7 @@ p {
 @media (min-width: 800px) {
   .nav-list {
     flex-direction: row;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
   }
 }
 
