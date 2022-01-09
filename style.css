@@ -37,45 +37,64 @@ body {
 /*MAIN
 ========================*/
 main {
-  margin: 1.5em 1em;
+  margin: 0 .6em 1.5em;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-}
-
-.container section {
-  margin-top: 0.8em; 
-  text-align: center;
+  align-items: center;
 }
 
 .img-wrap {
   margin: 1em;
+  text-align: center;
+  max-width: 300px;
 }
 
 .img-wrap img {
-  
   width: 100%;
-  max-width: 300px;
   height: auto;
 
   border-radius: 50%;
+}
+
+.main-title {
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5em;
 }
 
+.section-title {
+  font-weight: 300;
+  font-size: 1.7em;
+  text-align: center;
 
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
 
+section {
+  width: 90%;
+  margin-top: 1.5em;
+  max-width: 400px;
+}
+
+section li {
+  margin-left: 1em;
+}
 
 
 .footer {
+  display: flex;
   padding: 1em;
+  justify-content: space-between;
 
   background-color: #424242;
   color: #fff;
 }
+
